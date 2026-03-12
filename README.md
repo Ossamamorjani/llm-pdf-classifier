@@ -71,8 +71,9 @@ This modular design makes it easy to extend or swap components such as the embed
 ## Usage
 
 Run the main pipeline:
-'''bash
-python src/app.py
+
+- '''bash
+- python src/app.py
 
 
 ## Example Output
@@ -97,5 +98,6 @@ Possible extensions include:
 - A simple web interface for document interaction  
 
 Future versions of this project aim to evolve the system into a **multi-document AI research assistant** capable of comparing information across several academic papers.
+
 
 
