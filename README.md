@@ -21,21 +21,14 @@ This architecture improves factual accuracy and reduces hallucinations by ensuri
 
 The system follows a standard RAG pipeline:
 
-PDF Document
-↓
-Text Extraction
-↓
-Chunking
-↓
-Embeddings
-↓
-FAISS Vector Index
-↓
-Query Embedding
-↓
-Semantic Retrieval (Top-k chunks)
-↓
-Grounded LLM Answer
+1. PDF Document
+2. Text Extraction
+3. Chunking
+4. Embeddings
+5. FAISS Vector Index
+6. Query Embedding
+7. Semantic Retrieval (Top-k chunks)
+8. Grounded LLM Answer
 
 ## Project Structure 
 
@@ -104,4 +97,5 @@ Possible extensions include:
 - A simple web interface for document interaction  
 
 Future versions of this project aim to evolve the system into a **multi-document AI research assistant** capable of comparing information across several academic papers.
+
 
