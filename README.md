@@ -76,5 +76,32 @@ This modular design makes it easy to extend or swap components such as the embed
 
 
 ## Usage
+
+Run the main pipeline:
+'''bash
+python src/app.py
+
+
 ## Example Output
+
+Example Question:
+> What is the main idea behind the Transformer architecture?
+
+Example System Output:
+The Transformer architecture introduces a mechanism called self-attention, whcih allows the model to weight the importance of different words in a sequence relative to each other. Unlike pervious sequence models such as RNNs or LSTMs, the Transformer processes all tokens in parallel, enabling greater computational efficiency and better performance on long-range dependencies.
+
+Sources: [Chunk 3, Chunk 8]
+
 ## Future Improvements
+
+Possible extensions include:
+
+- Support for indexing multiple PDF documents  
+- Metadata-aware retrieval (document title, section, page)  
+- Hybrid retrieval combining semantic search and keyword search (BM25)  
+- Streaming responses for faster interaction  
+- Evaluation of retrieval quality using metrics such as recall@k  
+- A simple web interface for document interaction  
+
+Future versions of this project aim to evolve the system into a **multi-document AI research assistant** capable of comparing information across several academic papers.
+
