@@ -1,4 +1,4 @@
-# LLM PDF RAG System
+# PDF RAG Assistant
 
 ## Overview 
 ## Architecture 
@@ -25,4 +25,5 @@ Grounded LLM Answer
 ## Usage
 ## Example Output
 ## Future Improvements
+
 
